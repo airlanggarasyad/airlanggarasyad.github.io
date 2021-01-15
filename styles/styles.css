@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Ubuntu:wght@300;500;700&family=Roboto+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
 
 * {
     margin: 0;
@@ -22,7 +21,7 @@ html, body {
     width: 100%;
     padding: 15px 0;
     /*background: #f0932b;*/
-    font-family: 'Ubuntu', 'sans-serif';
+    font-family: 'Roboto Mono';
 }
 .navbar .max-width {
     display: flex;
@@ -46,10 +45,10 @@ html, body {
     display: inline-block;
 }
 .navbar .menu li a {
-    font-family: 'Lato';
+    font-family: 'Roboto Mono';
     color: white;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
@@ -67,12 +66,16 @@ html, body {
 
 /* Home */
 .home {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1595006784239-6d124f02a254?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80);
     display: flex;
     height: 100vh;
     color: white;
     min-height: 500px;
     font-family: 'Lato';
     font-weight: 300;
+}
+.home-content {
+    font-family: 'Roboto Mono';
 }
 .home .max-width {
     margin: auto 0 auto 40px;

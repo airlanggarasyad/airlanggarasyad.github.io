@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
 
 * {
     margin: 0;
@@ -16,7 +16,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../images/pc_icon.png);
-    width: 500px;
+    width: 550px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -26,7 +26,7 @@ body {
 }
 
 ul {
-    font-family: 'Roboto';
+    font-family: 'Roboto Mono';
     font-weight: 300;
     list-style-type: none;
 }
