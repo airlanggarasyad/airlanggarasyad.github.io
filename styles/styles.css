@@ -12,7 +12,6 @@ html, body {
 
 /*nav bar*/
 .max-width {
-    max-width: 1300px;
     padding: 0 80px;
     margin: auto;
 }
@@ -43,7 +42,7 @@ html, body {
     list-style: none;
     display: inline-block;
 }
-.navbar .menu li a {
+.navbar .menu li a, .right_now {
     font-family: 'Roboto Mono';
     color: white;
     font-size: 18px;
@@ -60,7 +59,10 @@ html, body {
 .logo a ul li{
     font-size: 10px;
 }
-
+.right_now {
+    color: #0abde3;
+    font-weight: 700;
+}
 /* Menu btn */
 .menu-btn {
     color: white;
@@ -72,6 +74,7 @@ html, body {
 /* Home */
 .home {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1595006784239-6d124f02a254?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80);
+    background-size: cover;
     display: flex;
     height: 100vh;
     color: white;
@@ -101,7 +104,7 @@ html, body {
     font-weight: 500;
     color: #0abde3;
 }
-.cursor {
+.cursor, .logocursor {
     display: inline-block;
     width: 1.5px;
     background-color: white;
@@ -116,6 +119,24 @@ html, body {
     50% {background-color: transparent;}
     99% {background-color: transparent;}
     100% { background-color: white}
+}
+.contact {
+    margin-top: 10px;
+    font-family: 'Roboto Mono';
+    font-size: 25px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 0px;
+    border: none;
+    outline: 2px solid black;
+    outline-offset: -4px;
+}
+.contact:hover {
+    font-size: black;
+    background-color: #0abde3;
+    outline: 2px solid #fff;
+    outline-offset: -4px;
+    color: white;
 }
 
 /* Responsive media */

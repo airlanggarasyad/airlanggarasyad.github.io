@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap');
 
 * {
     margin: 0;
@@ -15,9 +15,21 @@ html, body {
     padding-top:10px;
     
 }
+.cursor {
+    display: inline-block;
+    width: 1.5px;
+    background-color: white;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    49% { background-color: white}
+    50% {background-color: transparent;}
+    99% {background-color: transparent;}
+    100% { background-color: white}
+}
 /*nav bar*/
 .max-width {
-    max-width: 1300px;
     padding: 0 80px;
     margin: auto;
 }
@@ -48,7 +60,7 @@ html, body {
     list-style: none;
     display: inline-block;
 }
-.navbar .menu li a {
+.navbar .menu li a, .right_now {
     font-family: 'Roboto Mono';
     color: white;
     font-size: 18px;
@@ -62,6 +74,10 @@ html, body {
 .logo ul {
     list-style: none;
 }
+.right_now {
+    color: #0abde3;
+    font-weight: 300;
+}
 
 /* Menu btn */
 .menu-btn {
@@ -73,7 +89,7 @@ html, body {
 
 /* Content */
 .body {
-    margin: 4px 60px auto 60px;
+    margin: 4px 60px auto 80px;
 }
 
 .body h1 {
@@ -81,10 +97,15 @@ html, body {
     font-family: 'Roboto Mono';
     font-weight: 500;
 }
-
-.pdf_frame {
-    width: 100%; height: 80vh; overflow: hidden;
-    margin-top: 9px;
+.check_more {
+    text-align: center;
+    font-family: 'Roboto Mono';
+}
+.check_more a {
+    color: #575757;
+}
+.check_more a:hover {
+    color: white;
 }
 
 /* Responsive media */
