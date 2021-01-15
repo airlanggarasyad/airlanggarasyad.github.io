@@ -190,4 +190,8 @@ html, body {
         margin: 20px 0;
         font-size: 25px;
     }
+
+    .contact {
+        font-size: 20px;
+    }
 }
