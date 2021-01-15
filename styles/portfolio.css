@@ -22,7 +22,7 @@ html, body {
 .navbar {
     width: 100%;
     padding: 15px 0;
-    background: #f0932b;
+    background: #0abde3;
     font-family: 'Ubuntu', 'sans-serif';
 }
 .navbar .max-width {
@@ -36,7 +36,7 @@ html, body {
     color: white;
 }
 .navbar .logo a span {
-    color: #f0932b;
+    color:#0abde3;
 }
 .navbar .menu {
     list-style: none;

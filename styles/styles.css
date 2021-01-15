@@ -34,7 +34,7 @@ html, body {
     color: white;
 }
 .navbar .logo a span {
-    color: #f0932b;
+    color:#0abde3;
 }
 .navbar .menu {
     list-style: none;
@@ -52,7 +52,7 @@ html, body {
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-    color: #f0932b;
+    color: #0abde3;
 }
 
 /* Menu btn */
@@ -88,7 +88,7 @@ html, body {
 }
 .home .home-content .text-3 span {
     font-weight: 500;
-    color: #f0932b;
+    color: #0abde3;
 }
 .cursor {
     display: inline-block;
