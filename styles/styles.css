@@ -37,7 +37,6 @@ html, body {
     color:#0abde3;
 }
 .navbar .menu {
-    list-style: none;
     display: inline-block;
 }
 .navbar .menu li {
@@ -54,6 +53,12 @@ html, body {
 }
 .navbar .menu li a:hover {
     color: #0abde3;
+}
+.logo ul {
+    list-style: none;
+}
+.logo a ul li{
+    font-size: 10px;
 }
 
 /* Menu btn */

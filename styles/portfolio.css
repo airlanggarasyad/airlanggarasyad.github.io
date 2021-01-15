@@ -59,6 +59,9 @@ html, body {
 .navbar .menu li a:hover {
     text-decoration: underline;
 }
+.logo ul {
+    list-style: none;
+}
 
 /* Menu btn */
 .menu-btn {
