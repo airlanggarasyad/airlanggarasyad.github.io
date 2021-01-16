@@ -1,12 +1,70 @@
-body {
-    background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
-.body {
-    margin: 4px 60px auto 78px;
+html, body {
+    overflow-x:hidden;
+    margin: 0; height: 100%;
+    background-color:black;
+}
+.cursor {
+    display: inline-block;
+    width: 1.5px;
+    background-color: white;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    49% { background-color: white}
+    50% {background-color: transparent;}
+    99% {background-color: transparent;}
+    100% { background-color: white}
 }
 
-.body h1 {
-    color:white;
+.body{
+    padding-top:10px;
+    
+}
+
+a {
+  color: white;  
+}
+
+.icon {
+    font-size:1.7em;
+    border-radius: 50%;
+    background-color: white;
+    line-height: 2em;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    display: inline-block;
+    transition:0.5s;
+    margin-right: 20px;
+    color: black;
+}
+
+.cp-item {
     font-family: 'Roboto Mono';
-    font-weight: 500;
+    color: white;
+    padding: 22.85px 0;
+    display: flex;
+    align-items: center;
+}
+
+.cp-item .title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.cp-item a:hover {
+    color: #0abde3;
+}
+
+.cp-item span {
+    font-size: 25px;
 }
