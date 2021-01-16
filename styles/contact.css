@@ -27,7 +27,6 @@ html, body {
 
 .body{
     padding-top:10px;
-    
 }
 
 a {
@@ -35,7 +34,7 @@ a {
 }
 
 .icon {
-    font-size:1.7em;
+    font-size:1.6em;
     border-radius: 50%;
     background-color: white;
     line-height: 2em;
@@ -51,14 +50,14 @@ a {
 .cp-item {
     font-family: 'Roboto Mono';
     color: white;
-    padding: 22.85px 0;
+    padding: 15px 0;
     display: flex;
     align-items: center;
 }
 
 .cp-item .title {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .cp-item a:hover {
@@ -66,5 +65,5 @@ a {
 }
 
 .cp-item span {
-    font-size: 25px;
+    font-size: 20px;
 }
